@@ -87,6 +87,11 @@ intext: credit company
 prips 144.160.32.0/19 | hakrevdns  -d | httpx -title -status-code -follow-redirects
 ```
 
+### To Find All Oracle E-Business Login Panels
+- [x] Shodan Dork
+```
+"X-ORACLE-DMS-ECID" http.title:"Login" 200
+```
 
 ### 💂‍ H1 Disclosed Reports analysis 
 
